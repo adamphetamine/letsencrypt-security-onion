@@ -15,17 +15,17 @@ These 2 scripts make the following assumptions
 - variables are stored in /etc/letsencrypt-scripts as individual files for each variable
 - they must be named exaclty as in the script
 
-More info here including super exhaustive install instructions-
+**More info here including super exhaustive install instructions-**
 
 https://servicemax.com.au/tips/letsencrypt-for-security-onion/
 
 
 **but here's the short version**
 
-get a token with the correct permissions from Cloudflare
-install Lego
-download the scripts into /etc/letsencrypt-scripts
-add your creds as files in the same folder
-run the Lego enrol command to generate your scripts first
-add the le-renew script to crontab
+-get a token with the correct permissions from Cloudflare
+-install Lego
+-download the scripts into /etc/letsencrypt-scripts
+-add your creds as files in the same folder
+-run the Lego enrol command to generate your scripts first
+-add the le-renew script to crontab
 

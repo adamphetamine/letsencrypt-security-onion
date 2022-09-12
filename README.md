@@ -28,6 +28,6 @@ https://servicemax.com.au/tips/letsencrypt-for-security-onion/
 - install Lego
 - download the scripts into /etc/letsencrypt-scripts
 - add your creds as files in the same folder
-- run the Lego enrol command to generate your scripts first
+- run the Lego enrol command to generate your new certificates first
 - add the le-renew script to crontab
 

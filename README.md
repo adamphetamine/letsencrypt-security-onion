@@ -21,10 +21,16 @@ https://servicemax.com.au/tips/letsencrypt-for-security-onion/
 
 
 but here's the short version
+
 get a token with the correct permissions from Cloudflare
+
 install Lego
+
 download the scripts into /etc/letsencrypt-scripts
+
 add your creds as files in the same folder
+
 run the Lego enrol command to generate your scripts first
+
 add the le-renew script to crontab
 

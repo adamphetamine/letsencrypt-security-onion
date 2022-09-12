@@ -20,7 +20,7 @@ These 2 scripts make the following assumptions
 https://servicemax.com.au/tips/letsencrypt-for-security-onion/
 
 
-**but here's the short version**
+**Here's the short version**
 
 - get a token with the correct permissions from Cloudflare
 - install Lego

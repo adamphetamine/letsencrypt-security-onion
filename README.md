@@ -7,6 +7,15 @@ https://go-acme.github.io/lego/dns/cloudflare/
 
 https://securityonionsolutions.com
 
+**Here's the short version**
+
+- get a token with the correct permissions from Cloudflare
+- install Lego
+- download the scripts into /etc/letsencrypt-scripts
+- add your creds as files in the same folder
+- run the Lego enrol command to generate your new certificates first
+- add the le-renew script to crontab
+
 These 2 scripts will automate renewing your SSL certs from LetsEncrypt if using Cloudflare. It uses DNS challenge so does not require port 80 to be open, and will move certs into place and restart the web server if new certs are added. 
 
 We make the following assumptions-
@@ -21,13 +30,4 @@ We make the following assumptions-
 
 https://servicemax.com.au/tips/letsencrypt-for-security-onion/
 
-
-**Here's the short version**
-
-- get a token with the correct permissions from Cloudflare
-- install Lego
-- download the scripts into /etc/letsencrypt-scripts
-- add your creds as files in the same folder
-- run the Lego enrol command to generate your new certificates first
-- add the le-renew script to crontab
 

@@ -10,8 +10,8 @@ https://securityonionsolutions.com
 These 2 scripts will automate renewing your SSL certs from LetsEncrypt if using Cloudflare. It uses DNS challenge so does not require port 80 to be open, and will move certs into place and restart the web server if new certs are added. 
 
 We make the following assumptions-
-- they will be run from /etc/letsencrypt-scripts
-- lego is installed
+- scripts will be run from /etc/letsencrypt-scripts
+- Lego is installed
 - you are using Cloudflare for your certs
 - you've created and tested a token for DNS
 - variables are stored in /etc/letsencrypt-scripts as individual files for each variable

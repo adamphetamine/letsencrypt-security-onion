@@ -37,6 +37,6 @@ CLOUDFLARE_DNS_API_TOKEN=$CLOUDFLARE_API_TOKEN_FILE \
 lego --email $CLOUDFLARE_EMAIL_FILE \
 --dns cloudflare \
 --domains $DOMAIN_NAME run \
---run-hook "./move-certs.sh"
+--run-hook "/etc/letsencrypt-scripts/move-certs.sh"
 
 echo "all done. exiting"

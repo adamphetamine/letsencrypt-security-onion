@@ -35,7 +35,7 @@ cd /usr/bin/
 # set token  variable
 CLOUDFLARE_DNS_API_TOKEN=$CLOUDFLARE_API_TOKEN_FILE \
 lego --email $CLOUDFLARE_EMAIL_FILE \
- --dns cloudflare \
+--dns cloudflare \
 --domains $DOMAIN_NAME run \ 
 --run-hook "./move-certs.sh"
 
